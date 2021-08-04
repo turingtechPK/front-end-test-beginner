@@ -12,7 +12,7 @@ You need to perform this task by creating a new VueJs/Angular/React project whil
 - Reusable components created for similar UI blocks.
 - Time is taken to deliver the task.
 
-Download the AdobeXD file below:
+Download the AdobeXD file for design:
 https://drive.google.com/file/d/1KP6h0wPiZ7nR46N1U5qdHRRf--Zs1nSo/view?usp=sharing
 
 If you've not used AdobeXD before then watch this video:
@@ -26,6 +26,8 @@ https://www.youtube.com/watch?v=jHBMjjLY0Dw
 
 
 ## Code Submit
-Please organize, design, test and document your code as if it were going into production and send us a pull request. We will review it and get back to you in order to talk about your code! 
+Please organize, design, test and document your code as if it were going into production and send us a pull request. After completing your task also send us an email to hr@turingtechnologies.org ,this will remind us to check your task on priority :upside_down_face:. 
+
+We will back after reviewing the task in order to talk about your code! 
 
 All the best and happy coding.
