@@ -13,10 +13,24 @@ You need to perform this task by creating a new VueJs/Angular/React project whil
 - Time is taken to deliver the task.
 
 Download the AdobeXD file for design:
-https://drive.google.com/file/d/1KP6h0wPiZ7nR46N1U5qdHRRf--Zs1nSo/view?usp=sharing
+https://drive.google.com/drive/folders/1BgrzX1v6o9zOAG5aR780JbKnegzHZiSv
 
 If you've not used AdobeXD before then watch this video:
 https://www.youtube.com/watch?v=jHBMjjLY0Dw
+
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1280px
+
+### Font
+
+- Family: [Avenir-Next-LT-Pro] https://drive.google.com/drive/folders/1BgrzX1v6o9zOAG5aR780JbKnegzHZiSv?usp=sharing
+- Regular, Italic, Bold
 
 
 ## Bonus
