@@ -28,6 +28,6 @@ https://www.youtube.com/watch?v=jHBMjjLY0Dw
 ## Code Submit
 Please organize, design, test and document your code as if it were going into production and send us a pull request. After completing your task also send us an email to hr@turingtechnologies.org ,this will remind us to check your task on priority :upside_down_face:. 
 
-We will back after reviewing the task in order to talk about your code! 
+We will get back after reviewing the task in order to talk about your code! 
 
 All the best and happy coding.
