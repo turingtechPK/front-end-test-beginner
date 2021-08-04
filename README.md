@@ -1,1 +1,31 @@
-# front-end-test-html-css
+# Frontend Hiring Test - HTML,CSS,Framework
+
+This test is a part of our hiring process at TuringTech for the Frontend Engineer position. It should take you between 4 to 6 hours, depending on your experience, to implement the minimal version.
+
+## Performance Criteria
+
+You need to perform this task by creating a new VueJs/Angular/React project while writing custom HTML and CSS. Your performance will be judged on the basis of following:
+
+- Matching of your task with the design.
+- Project structure according to the framework
+- Components created for different UI blocks (Header, Sidebar, etc)
+- Reusable components created for similar UI blocks.
+- Time is taken to deliver the task.
+
+Download the AdobeXD file below:
+https://drive.google.com/file/d/1KP6h0wPiZ7nR46N1U5qdHRRf--Zs1nSo/view?usp=sharing
+
+If you've not used AdobeXD before then watch this video:
+https://www.youtube.com/watch?v=jHBMjjLY0Dw
+
+
+## Bonus
+
+- Use typescript
+- Deploy your app on Heroku or Netlify
+
+
+## Code Submit
+Please organize, design, test and document your code as if it were going into production and send us a pull request. We will review it and get back to you in order to talk about your code! 
+
+All the best and happy coding.
