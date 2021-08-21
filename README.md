@@ -4,7 +4,7 @@ This test is a part of our hiring process at TuringTech for the Frontend Enginee
 
 ## Performance Criteria
 
-You need to perform this task by creating a new VueJs/Angular/React project while writing custom HTML and CSS. Your performance will be judged on the basis of following:
+You need to perform this task by creating a new VueJs/Angular/React project while writing custom HTML and CSS. You can however choose to do this without using a framework as well ONLY in case you are not comfortable with the above frameworks. Your performance will be judged on the basis of following:
 
 - Matching of your task with the design.
 - Project structure according to the framework
