@@ -1,4 +1,4 @@
-# Frontend Hiring Test - HTML,CSS,Framework
+# Frontend Hiring Test - HTML,CSS,Framework (Beginner)
 
 This test is a part of our hiring process at TuringTech for the Frontend Engineer position. It should take you between 4 to 6 hours, depending on your experience, to implement the minimal version.
 
