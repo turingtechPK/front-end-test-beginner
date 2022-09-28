@@ -38,10 +38,9 @@ The designs were created to the following widths:
 - Use typescript
 - Deploy your app on Heroku or Netlify
 
-
 ## Code Submit
-Please organize, design, test and document your code as if it were going into production and send us a pull request. After completing your task also send us an email to hr@turingtechnologies.org ,this will remind us to check your task on priority :upside_down_face:. 
+Please organize, design, test and document your code as if it were going into production, create a loom video and send us a [pull request](https://opensource.com/article/19/7/create-pull-request-github). 
 
-We will get back after reviewing the task in order to talk about your code! 
+We will review it and get back to you in order to talk about your code! 
 
 All the best and happy coding.
