@@ -1,15 +1,13 @@
 # Frontend Hiring Test - HTML,CSS,Framework (Beginner)
 
-This test is a part of our hiring process at TuringTech for the Frontend Engineer position. It should take you between 4 to 6 hours, depending on your experience, to implement the minimal version.
+This test is a part of our hiring process at TuringTech for the Frontend Engineer position. It should take you between 4 to 6 hours, depending on your experience, to implement the minimal version. You can do this test in plain HTML and CSS. This test is for students who're applying for internship or fresh graduates without prior web development experience.
 
 ## Performance Criteria
 
-You need to perform this task by creating a new VueJs/Angular/React project while writing custom HTML and CSS. You can however choose to do this without using a framework as well ONLY in case you are not comfortable with the above frameworks. Your performance will be judged on the basis of following:
-
 - Matching of your task with the design.
-- Project structure according to the framework
-- Components created for different UI blocks (Header, Sidebar, etc)
-- Reusable components created for similar UI blocks.
+- Project structure and files.
+- Components/Elements created for different UI blocks (Header, Sidebar, etc)
+- Reusable components/elements created for similar UI blocks.
 - Time is taken to deliver the task.
 
 Download the AdobeXD file for design:
