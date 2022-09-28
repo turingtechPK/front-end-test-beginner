@@ -16,7 +16,7 @@ Download the AdobeXD file for design:
 https://drive.google.com/drive/folders/1BgrzX1v6o9zOAG5aR780JbKnegzHZiSv
 
 If you've not used AdobeXD before then watch this video:
-https://www.youtube.com/watch?v=jHBMjjLY0Dw
+https://www.youtube.com/watch?v=QTeyhOf5Vxs
 
 # Front-end Style Guide
 
