@@ -35,8 +35,7 @@ The designs were created to the following widths:
 
 ## Bonus
 
-- Use typescript
-- Deploy your app on Heroku or Netlify
+- Deploy your app on GitHub Pages and share URL
 
 ## Code Submit
 Please organize, design, test and document your code as if it were going into production, create a loom video and send us a [pull request](https://opensource.com/article/19/7/create-pull-request-github). 
