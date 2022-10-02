@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13.813" height="13" viewBox="0 0 13.813 13">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_19" data-name="Rectangle 19" width="13.813" height="13" transform="translate(609 2262)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_4" data-name="Mask Group 4" transform="translate(-609 -2262)" clip-path="url(#clip-path)">
+    <g id="Page-1" transform="translate(609 2262.921)">
+      <g id="Product-Icons" transform="translate(-52.304 -191.78)">
+        <g id="Icons_SVG_Service" data-name="Icons/SVG/Service" transform="translate(52.304 191.333)">
+          <g id="Group-3" transform="translate(3.129 0.429)">
+            <path id="Fill-1" d="M5.536.019a.22.22,0,0,0-.209.319,3.578,3.578,0,0,1,.229.557,3.7,3.7,0,0,1,.156.764.217.217,0,0,0,.173.194A3.82,3.82,0,1,1,1.927,7.719.235.235,0,0,0,1.6,7.648a1.732,1.732,0,0,1-1.142.379.224.224,0,0,0-.207.338,5.578,5.578,0,0,0,4.956,2.811A5.587,5.587,0,0,0,5.536.019" fill="#33475b" fill-rule="evenodd"/>
+          </g>
+          <path id="Fill-4" d="M6.632,1.022a1.941,1.941,0,0,1,.617.919,2.084,2.084,0,0,1,.05,1.1,1.9,1.9,0,0,1-.524.954L4.005,6.864a.451.451,0,0,1-.661,0L.574,4.008A2,2,0,0,1,.05,3.039,2.093,2.093,0,0,1,.1,1.941a1.936,1.936,0,0,1,.617-.919A1.821,1.821,0,0,1,1.594.605a1.939,1.939,0,0,1,.962.072,2.035,2.035,0,0,1,.832.531l.287.287.287-.287A2.04,2.04,0,0,1,4.795.677,1.937,1.937,0,0,1,5.756.605a1.821,1.821,0,0,1,.876.417" fill="#ff7a59" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Icons_Actions_Previous" data-name="Icons/Actions/Previous" d="M15.077,5.474H3.151L6.5,1.752A1.111,1.111,0,0,0,6.5.3.86.86,0,0,0,5.193.3L.27,5.774a1.047,1.047,0,0,0-.2.336s0,.011,0,.016a1.106,1.106,0,0,0,0,.749s0,.011,0,.016a1.047,1.047,0,0,0,.2.336L5.193,12.7a.86.86,0,0,0,1.306,0,1.111,1.111,0,0,0,0-1.452L3.151,7.526H15.077A.979.979,0,0,0,16,6.5a.979.979,0,0,0-.923-1.026" fill="#00a4bd"/>
+    </clipPath>
+  </defs>
+  <g id="Icons_Actions_Previous-2" data-name="Icons/Actions/Previous" transform="translate(0 16) rotate(-90)">
+    <g id="Group_44" data-name="Group 44" transform="translate(0 1.5)">
+      <path id="Icons_Actions_Previous-3" data-name="Icons/Actions/Previous" d="M15.077,5.474H3.151L6.5,1.752A1.111,1.111,0,0,0,6.5.3.86.86,0,0,0,5.193.3L.27,5.774a1.047,1.047,0,0,0-.2.336s0,.011,0,.016a1.106,1.106,0,0,0,0,.749s0,.011,0,.016a1.047,1.047,0,0,0,.2.336L5.193,12.7a.86.86,0,0,0,1.306,0,1.111,1.111,0,0,0,0-1.452L3.151,7.526H15.077A.979.979,0,0,0,16,6.5a.979.979,0,0,0-.923-1.026" fill="#00a4bd"/>
+    </g>
+  </g>
+</svg>

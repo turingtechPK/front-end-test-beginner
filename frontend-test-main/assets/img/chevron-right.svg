@@ -1,0 +1,10 @@
+<svg id="Styles_Icons_Arrows_Caret_Right" data-name="Styles/Icons/Arrows/Caret/Right" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="5.417" height="10" viewBox="0 0 5.417 10">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Icons_Actions_CaretRight" data-name="Icons/Actions/CaretRight" d="M5.371,4.766a.615.615,0,0,0-.066-.1L5.265,4.6a.147.147,0,0,0-.018-.028L1.078.194a.625.625,0,0,0-.906.862L3.931,5,.172,8.944a.625.625,0,0,0,.906.862L5.247,5.431A.15.15,0,0,0,5.265,5.4l.04-.064a.615.615,0,0,0,.066-.1A.6.6,0,0,0,5.4,5.117.62.62,0,0,0,5.417,5a.622.622,0,0,0-.02-.116.591.591,0,0,0-.026-.118" transform="translate(0)" fill="#7c98b6"/>
+    </clipPath>
+  </defs>
+  <g id="Group_41" data-name="Group 41" transform="translate(0 0)">
+    <path id="Icons_Actions_CaretRight-2" data-name="Icons/Actions/CaretRight" d="M5.371,4.766a.615.615,0,0,0-.066-.1L5.265,4.6a.147.147,0,0,0-.018-.028L1.078.194a.625.625,0,0,0-.906.862L3.931,5,.172,8.944a.625.625,0,0,0,.906.862L5.247,5.431A.15.15,0,0,0,5.265,5.4l.04-.064a.615.615,0,0,0,.066-.1A.6.6,0,0,0,5.4,5.117.62.62,0,0,0,5.417,5a.622.622,0,0,0-.02-.116.591.591,0,0,0-.026-.118" transform="translate(0)" fill="#0091b0"/>
+  </g>
+</svg>

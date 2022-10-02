@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--CUSTOM CSS-->
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--BOOTSTRAP-->
+
+</head>
+
+<body>
+
+    <div class="website-wrapper">
+        <header class="header-parent" id="header">
+            <div class="header-top d-none d-sm-flex justify-content-between container-xl">
+                <ul class="header-top-left m-0 p-0 d-flex align-items-center">
+                    <li>
+                        <img src="./assets/img/language.svg" width="12px" alt="">
+                        <span>English</span>
+                    </li>
+                    <li>
+                        <img src="./assets/img/avatar.svg" width="12px" alt="">
+                        <span>Contact sales</span>
+                    </li>
+                </ul>
+                <ul class="header-top-right m-0 p-0 d-flex align-items-center">
+                    <li>
+                        <img src="./assets/img/search.svg" width="13px" alt="">
+                    </li>
+                    <li>
+                        <span>Login</span>
+                    </li>
+                    <li>
+                        <span>Customer Support</span>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle" href="#" id="aboutDropDown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <nav class="navbar navbar-expand-md navbar-light py-4">
+                <div class="container-xl-fluid container-xl">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <navbar class="navbar-nav align-items-center justify-content-between w-100">
+                            <div class="header-top-xs d-block d-sm-none">
+                                <ul class="header-top-left d-flex justify-content-between mb-2 p-0 ">
+                                    <li>
+                                        <img src="./assets/img/language.svg" width="12px" alt="">
+                                        <span>English</span>
+                                    </li>
+                                    <li>
+                                        <img src="./assets/img/avatar.svg" width="12px" alt="">
+                                        <span>Contact sales</span>
+                                    </li>
+                                </ul>
+                                <ul class="header-top-right m-0 p-0 d-flex d-sm-none align-items-center">
+                                    <li>
+                                        <img src="./assets/img/search.svg" width="13px" alt="">
+                                    </li>
+                                    <li>
+                                        <span>Login</span>
+                                    </li>
+                                    <li>
+                                        <span>Customer Support</span>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <ul class="navbar-left m-0 p-0 d-flex">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Software
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Resources
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                            <div class="navbar-right">
+                                <button class="cta-button-1">
+                                    Get Started
+                                </button>
+                            </div>
+                        </navbar>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="plan-parent">
+            <div class="plan-inner">
+                <div class="plan-top">
+                    <div class="plan-top-heading">
+                        <div class="plan-top-heading-inner">
+                            <h3>Grow Better with the right plan.</h3>
+                            <p>Pay for what you need (when you need it).</p>
+                            <div class="plan-tab-parent justify-content-center d-none d-sm-flex">
+                                <button class="plan-tab">Product and plans </button>
+                                <button class="plan-tab">Bundles </button>
+                            </div>
+                            <div class="plan-tab-parent-xs d-block d-sm-none">
+                                <p>Product and Plans</p>
+                                <h1>Customer Service <img src="./assets/img/down.svg" class="ms-2" width="20px" alt="">
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plan-tab-parent d-none d-sm-flex justify-content-center">
+                        <button class="plan-tab">Free Tools</button>
+                        <button class="plan-tab">Marketing </button>
+                        <button class="plan-tab">CRM & Sales </button>
+                        <button class="plan-tab">Customer Service </button>
+                        <button class="plan-tab">CMS </button>
+                    </div>
+                </div>
+
+                <div class="plan-middle">
+                    <div class="container-xl">
+                        <div class="plan-middle-heading">
+                            <div class="currency-list-xs d-flex d-sm-none justify-content-center">
+                                <button>USD</button>
+                                <button>EUR</button>
+                                <button>GBP</button>
+                                <button>AUD</button>
+                                <button>JPY</button>
+                                <button>SGD</button>
+                                <button>COP</button>
+                            </div>
+                            <h2> <img src="./assets/img/Page-1.svg" width="30px" alt="" class="me-3"> Service Hub </h2>
+                            <span>Everything you need to deliver service that delights customers at scale.</span>
+                            <a href="">Calculate your price</a>
+                            <img src="./assets/img/arrow-down.svg" width="15px" alt="">
+                        </div>
+                        <div class="plan-middle-tabs-xs d-flex flex-column d-sm-none">
+                            <button>Starter</button>
+                            <button>Professional</button>
+                            <button>Enterprise</button>
+                        </div>
+                        <div class="plan-card-grid">
+                            <div class="plan-card">
+                                <div class="plan-card-top">
+                                    <div class="plan-card-top-name">
+                                        <div>
+                                            <img src="./assets/img/heart-1.svg" width="15px" alt="">
+                                            <h3>Starter</h3>
+                                            <p>Starts at 2 paid users</p>
+                                        </div>
+                                        <div>
+                                            <p>Starts at <span>$50</span> </p>
+                                            <h5 class="plan-price"> $45/mo</h5>
+                                            <p>billed at $540/yr</p>
+                                        </div>
+                                    </div>
+                                    <div class="payment-method-tab my-3">
+                                        <div>
+                                            <p class="fw-bold">Pay Monthly</p>
+                                            <p>Commit annually</p>
+                                        </div>
+                                        <div>
+                                            <p class="fw-bold">Pay Upfront <span> SAVE 10%</span> </p>
+                                            <p>Commit annually</p>
+                                        </div>
+                                    </div>
+                                    <button class="cta-button-1 d-block w-100 text-center">Buy Now</button>
+                                </div>
+                                <div class="plan-card-features">
+                                    <p class="my-3">Free tools plus:</p>
+                                    <ul class="plan-card-feature-list">
+                                        <h5>ORGANIZE & TRACK CUSTOMER <br> COMMUNICATIONS</h5>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Ticketing</span>
+                                        </li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Live chat</span>
+                                        </li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Conversations
+                                                inbox</span></li>
+                                        <li><img src="./assets/img/tick.svg" alt=""><span>Calling</span></li>
+                                        <li><img src="./assets/img/tick.svg" alt=""><span>Conversational bots</span>
+                                        </li>
+                                        <li><img src="./assets/img/tick.svg" alt=""><span>Team email</span></li>
+                                        <li><img src="./assets/img/tick.svg" alt=""><span>Simple automation</span></li>
+                                    </ul>
+
+                                    <ul class="plan-card-feature-list">
+                                        <h5>MAXIMIZE PRODUCTIVITY</h5>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Canned
+                                                snippets</span></li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Email
+                                                templates</span></li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Meeting
+                                                scheduling</span></li>
+                                    </ul>
+
+                                    <ul class="plan-card-feature-list">
+                                        <h5>MEASURE EFFICIENCY</h5>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Tickets closed
+                                                reports</span></li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Rep productivity
+                                                reports</span></li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Time-to-close
+                                                reports</span></li>
+                                    </ul>
+                                </div>
+                                <div class="plan-card-footer text-center">
+                                    <a href="">See all features</a>
+                                </div>
+                            </div>
+                            <div class="plan-card d-none d-sm-block">
+                                <div class="plan-card-top">
+                                    <div class="plan-card-top-name">
+                                        <div>
+                                            <img src="./assets/img/heart-2.svg" width="20px" alt="">
+                                            <h3>Professional</h3>
+                                            <p>Starts at 5 paid users</p>
+                                        </div>
+                                        <div>
+                                            <p>Starts at <span>$400</span> </p>
+                                            <h5 class="plan-price"> $360/mo</h5>
+                                            <p>billed at $540/yr</p>
+                                        </div>
+                                    </div>
+                                    <div class="payment-method-tab my-3">
+                                        <div>
+                                            <p class="fw-bold">Pay Monthly</p>
+                                            <p>Commit annually</p>
+                                        </div>
+                                        <div>
+                                            <p class="fw-bold">Pay Upfront <span> SAVE 10%</span> </p>
+                                            <p>Commit annually</p>
+                                        </div>
+                                    </div>
+                                    <button class="cta-button-1 d-block w-100 text-center">Talk to sales</button>
+                                </div>
+                                <div class="plan-card-features">
+                                    <p class="my-3">Starter plus:</p>
+                                    <ul class="plan-card-feature-list">
+                                        <h5>ORGANIZE & TRACK CUSTOMER <br> COMMUNICATIONS</h5>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Ticketing</span>
+                                        </li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Live chat</span>
+                                        </li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Conversations
+                                                inbox</span></li>
+                                        <li><img src="./assets/img/tick.svg" alt=""><span>Calling</span></li>
+                                        <li><img src="./assets/img/tick.svg" alt=""><span>Conversational bots</span>
+                                        </li>
+                                        <li><img src="./assets/img/tick.svg" alt=""><span>Team email</span></li>
+                                        <li><img src="./assets/img/tick.svg" alt=""><span>Simple automation</span></li>
+                                    </ul>
+
+                                    <ul class="plan-card-feature-list">
+                                        <h5>MAXIMIZE PRODUCTIVITY</h5>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Canned
+                                                snippets</span></li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Email
+                                                templates</span></li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Meeting
+                                                scheduling</span></li>
+                                    </ul>
+
+                                    <ul class="plan-card-feature-list">
+                                        <h5>MEASURE EFFICIENCY</h5>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Tickets closed
+                                                reports</span></li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Rep productivity
+                                                reports</span></li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Time-to-close
+                                                reports</span></li>
+                                    </ul>
+                                </div>
+                                <div class="plan-card-footer text-center">
+                                    <a href="">See all features</a>
+                                </div>
+                            </div>
+                            <div class="plan-card d-none d-sm-block">
+                                <div class="plan-card-top">
+                                    <div class="plan-card-top-name">
+                                        <div>
+                                            <img src="./assets/img/heart-3.svg" width="28px" alt="">
+                                            <h3>Enterprise</h3>
+                                            <p>Starts at 10 paid users</p>
+                                        </div>
+                                        <div>
+                                            <p>Starts at </p>
+                                            <h5 class="plan-price"> $1,200/mo</h5>
+                                            <p>billed at $540/yr</p>
+                                        </div>
+                                    </div>
+                                    <div class="payment-method-tab my-3" style=" opacity : 0; ">
+                                        <div>
+                                            <p class="fw-bold">Pay Monthly</p>
+                                            <p>Commit annually</p>
+                                        </div>
+                                        <div>
+                                            <p class="fw-bold">Pay Upfront <span> SAVE 10%</span> </p>
+                                            <p>Commit annually</p>
+                                        </div>
+                                    </div>
+                                    <button class="cta-button-1 d-block w-100 text-center">Talk to sales</button>
+                                </div>
+                                <div class="plan-card-features">
+                                    <p class="my-3">Free tools plus:</p>
+                                    <ul class="plan-card-feature-list">
+                                        <h5>ORGANIZE & TRACK CUSTOMER <br> COMMUNICATIONS</h5>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Ticketing</span>
+                                        </li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Live chat</span>
+                                        </li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Conversations
+                                                inbox</span></li>
+                                        <li><img src="./assets/img/tick.svg" alt=""><span>Calling</span></li>
+                                        <li><img src="./assets/img/tick.svg" alt=""><span>Conversational bots</span>
+                                        </li>
+                                        <li><img src="./assets/img/tick.svg" alt=""><span>Team email</span></li>
+                                        <li><img src="./assets/img/tick.svg" alt=""><span>Simple automation</span></li>
+                                    </ul>
+
+                                    <ul class="plan-card-feature-list">
+                                        <h5>MAXIMIZE PRODUCTIVITY</h5>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Canned
+                                                snippets</span></li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Email
+                                                templates</span></li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Meeting
+                                                scheduling</span></li>
+                                    </ul>
+
+                                    <ul class="plan-card-feature-list">
+                                        <h5>MEASURE EFFICIENCY</h5>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Tickets closed
+                                                reports</span></li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Rep productivity
+                                                reports</span></li>
+                                        <li><img src="./assets/img/tick.svg" width="14px" alt=""><span>Time-to-close
+                                                reports</span></li>
+                                    </ul>
+                                </div>
+                                <div class="plan-card-footer text-center">
+                                    <a href="">See all features</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="currency-list">
+                            <button>USD $</button>
+                            <button>EUR €</button>
+                            <button>GBP £</button>
+                            <button>AUD $</button>
+                            <button>JPY ¥</button>
+                            <button>SGD $</button>
+                            <button>COP $</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plan-bottom">
+                    <div class="container-xl">
+                        <div class="generic-card">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5>Free Tools</h5>
+                                <button class="cta-button-2 d-none d-md-inline-block">Get Started Free</button>
+                            </div>
+                            <p class="fs-14px">Connect with and help your customers with customer service tools you can
+                                use for free.</p>
+                            <button class="cta-button-2 d-block mx-auto d-md-none mb-4">Get Started Free</button>
+                            <div class="card-features">
+                                <span> <img src="./assets/img/tick.svg" width="15px" alt=""> Ticketing </span>
+                                <span> <img src="./assets/img/tick.svg" width="15px" alt=""> Live chat </span>
+                                <span> <img src="./assets/img/tick.svg" width="15px" alt=""> Conversations inbox </span>
+                                <span> <img src="./assets/img/tick.svg" width="15px" alt=""> Team email </span>
+                                <span> <img src="./assets/img/tick.svg" width="15px" alt=""> Tickets closed reports
+                                </span>
+                                <a href=""> See all features</a>
+                            </div>
+                        </div>
+                        <div class="generic-card p-3">
+                            <div class="d-xs-block d-md-flex justify-content-between align-items-center mb-2">
+                                <div>
+                                    <h6 class="fw-bolder">HubSpot for Startups</h6>
+                                    <p class="mb-0" style="font-size: 14px ; ">If you work for a startup, you might be
+                                        eligible for up to 90% off through the HubSpot for Startups Program.</p>
+                                </div>
+                                <button class="cta-button-3">Learn More</button>
+                            </div>
+                        </div>
+                        <div class="section-heading">
+                            <h2>Recommended Bundles</h2>
+                        </div>
+                        <div class="generic-card p-0">
+                            <div class="generic-card-top-info d-none d-md-block">
+                                <p class="mb-0">To support businesses through uncertain time, we're reducing the cost of
+                                    our Starter Growth Suite from $113/month to $50/month with a 12-month commitment.
+                                </p>
+                                <a href=""> Learn more <img src="./assets/img/external_link.svg" width="14px"
+                                        alt=""></a>
+                            </div>
+
+                            <div class="recommended-content">
+                                <div class="d-flex justify-content-between gap-5">
+                                    <div class="recommended-name">
+                                        <h5>Starter Growth Suite</h5>
+                                        <p>Our Growth Suite bundle includes all the marketing, sales, and customer
+                                            service software your growing business needs — fully integrated and
+                                            discounted on our standalone prices. See bundled pricing details here.</p>
+                                    </div>
+                                    <div>
+                                        <button class="cta-button-1 ">Buy now</button>
+                                        <a href="" class="d-block">See all features</a>
+                                    </div>
+                                </div>
+                                <span class="d-none d-md-block pb-2" style="font-size: 12px;">Starts at</span>
+                                <div class="recommended-price d-none d-md-flex">
+                                    <h1>$50 </h1>
+                                    <h2>/mo</h2>
+                                    <h3>$113/mo</h3>
+                                </div>
+                                <div class="recommended-features">
+                                    <p class="mb-1 fw-bold mt-2">Ideal for:</p>
+                                    <ul>
+                                        <li class="fs-14px"><img src="./assets/img/tick.svg" width="14px"
+                                                alt=""><span>Capturing and converting, understanding, and engaging your
+                                                leads</span></li>
+                                        <li class="fs-14px"><img src="./assets/img/tick.svg" width="14px"
+                                                alt=""><span>Organizing your team, connecting with prospects on their
+                                                terms, and tracking, iterating, and improving your sales process</span>
+                                        </li>
+                                        <li class="fs-14px"><img src="./assets/img/tick.svg" width="14px"
+                                                alt=""><span>Organizing and tracking customer communications, maximizing
+                                                productivity, and measuring efficiency</span></li>
+                                    </ul>
+
+                                    <div class="recommended-features-small-screen d-block d-md-none">
+
+                                        <span class="pb-2 d-block text-center mt-5" style="font-size: 12px;">Starts
+                                            at</span>
+                                        <div class="recommended-price  d-flex justify-content-center">
+                                            <h1 style="font-size: 20px;">$50 </h1>
+                                            <h2 style="font-size: 20px;">/mo</h2>
+                                        </div>
+                                        <span class="pb-2 d-block text-center" style="font-size: 12px;">billed at
+                                            600$/yr</span>
+
+                                        <div class="payment-method-tab my-3">
+                                            <div>
+                                                <p class="fw-bold">Pay Monthly</p>
+                                                <p>Commit annually</p>
+                                            </div>
+                                            <div>
+                                                <p class="fw-bold">Pay Upfront <span> SAVE 10%</span> </p>
+                                                <p>Commit annually</p>
+                                            </div>
+                                        </div>
+                                        <button class="cta-button-1 d-block mx-auto my-3 w-100">Buy now</button>
+                                        <a href="" class="d-block">See all features</a>
+
+
+                                    </div>
+
+                                    <p class="mb-1 fw-bold mt-3">Includes:</p>
+                                    <ul
+                                        class="d-flex justify-content-start align-items-center gap-5 recommended-bullets">
+                                        <li><img src="./assets/img/target.svg" width="14px" alt=""><span
+                                                class="fs-6 fw-bold">HubSpot CRM</span></li>
+                                        <li><img src="./assets/img/target-2.svg" width="14px" alt=""><span
+                                                class="fs-6 fw-bold">Marketing Hub Starter</span></li>
+                                        <li><img src="./assets/img/target-3.svg" width="16px" alt=""><span
+                                                class="fs-6 fw-bold">Sales Hub Starter</span></li>
+                                        <li><img src="./assets/img/target-4.svg" width="16px" alt=""><span
+                                                class="fs-6 fw-bold">Service Hub Starter</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="call-cta text-center mt-5 mb-3">
+                            <p class="fw-bold">Not sure which plan is right for you? <br>
+                                Give us a call.</p>
+                            <button class="call-btn">
+                                <img src="./assets/img/phone.svg" width="15px" alt="">
+                                +61 280 466 514
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="calculate-parent section-y-padding">
+            <div class="calculate-inner container-xl">
+                <div class="section-heading">
+                    <h2>Calculate Your Price</h2>
+                </div>
+                <a href="#header" class=" to-top d-flex align-items-center justify-content-end"> <img
+                        src="./assets/img/arrow-down.svg" alt=""> Back to top</a>
+                <main class="calculate-grid">
+                    <div class="calculate-grid-left">
+                        <p class="fw-bold">Select a Service Hub plan:</p>
+                        <div class="service-hub-plan-tabs d-flex d-md-grid my-4 py-1">
+                            <button>
+                                <p> <img src="./assets/img/heart-1.svg" width="15px" alt=""> Starter</p>
+                                <span>$50/month</span>
+                            </button>
+                            <button>
+                                <p> <img src="./assets/img/heart-2.svg" width="22px" alt=""> Professional</p>
+                                <span>$400/month</span>
+                            </button>
+                            <button>
+                                <p> <img src="./assets/img/heart-3.svg" width="30px" alt=""> Enterprise</p>
+                                <span>$1200/month</span>
+                            </button>
+                        </div>
+
+                        <div class="service-hub-plan-info py-4">
+                            <h6>Paid Users</h6>
+                            <div class="d-flex justify-content-between align-items-start">
+                                <p>Choose how many users can access the Service Hub Starter features. 2 paid
+                                    users included. $23/month per additional user.</p>
+                                <input type="number" placeholder="2" class="plan-price-counter" min="0">
+                            </div>
+                            <div>
+                                <div class="service-hub-plan-info-cta">
+                                    <span class="fw-bold">Unlimited Free Users.</span> <span>Everyone in your company
+                                        gets access to HubSpot's free features.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-hub-plan-info py-4">
+                            <h6>Add Ons</h6>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="m-0">Customize and enhance your plan with additional features.</p>
+                                <img src="./assets/img/plus.svg" width="16px" alt="">
+                            </div>
+                        </div>
+
+                        <div class="service-hub-plan-info py-4">
+                            <h6>Recommended Services</h6>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="m-0">Upgrade your plan with these premium services for expert help and
+                                    guidance..</p>
+                                <img src="./assets/img/plus.svg" width="16px" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="calculate-grid-right">
+                        <div class="calculate-grid-right-inner">
+                            <div class="payment-method-tab">
+                                <div>
+                                    <p class="fw-bold">Pay Monthly</p>
+                                    <p>Commit annually</p>
+                                </div>
+                                <div>
+                                    <p class="fw-bold">Pay Upfront <span> SAVE 10%</span> </p>
+                                    <p>Commit annually</p>
+                                </div>
+                            </div>
+                            <div class="calculate-grid-right-inner-content py-4">
+
+                                <h1 class="d-inline fw-bold">$45</h1>
+                                <h3 class="d-inline fw-bold">/mo</h3>
+                                <p>billed at $540/yr</p>
+                                <p class="fw-bold px-4 mb-1">ESTIMATED COST TO GET STARTED WITH
+                                    SERVICE HUB STARTER:</p>
+                                <p class="fs-6">$540</p>
+                                <button class="cta-button-1 px-5 py-3 d-block mx-auto mb-4"> Talk to sales </button>
+                                <a href="">View price breakdown</a>
+                            </div>
+                        </div>
+                        <div class="calculate-grid-right-outer-content pb-0">
+                            <p class="mb-0">
+                                We've estimated your monthly cost based on the options you've
+                                chosen above. Any applicable taxes are not included, and your
+                                fees are subject to increase with additional purchases and
+                                additional marketing contacts.
+                                The discount for annual payment only applies to the products as
+                                indicated on this page as well as any additional paid users
+                                purchased during your subscription term. It may not be
+                                combined with other promotions or discounts.
+                            </p>
+
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </section>
+
+        <section class="customer-support-parent container-xl d-flex justify-content-between section-y-padding">
+
+            <div class="customer-support-img d-none d-sm-block">
+                <img src="./assets/img/customer-support.svg" width="300px" alt="">
+            </div>
+
+            <div class="customer-support-content">
+
+                <div class="customer-support-heading">
+                    <p>Customer support</p>
+                    <h2>Hubspot is more than just a software</h2>
+                </div>
+
+                <div class="customer-support-info">
+                    <p>You don’t have to do it alone. HubSpot’s award-winning customer support and services teams are
+                        here to answer your questions, help you master the inbound methodology, and make sure you’re
+                        getting the most out of your tools. All that — plus our detailed help documentation, educational
+                        resources, and training programs — means you’ll never feel left out in the cold.</p>
+                </div>
+
+                <div class="customer-support-features d-flex justify-content-between align-items-center">
+                    <div>
+                        <p>Phone & Email Support</p>
+                        <img src="./assets/img/document.svg" width="24px" alt="">
+                    </div>
+                    <div>
+                        <p>Help Documentation & Training</p>
+                        <img src="./assets/img/Icons-Objects-Calling.svg" width="24px" alt="">
+                    </div>
+                    <div>
+                        <p>Community Support</p>
+                        <img src="./assets/img/Icons-Content-Lists.svg" width="24px" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="frequent-parent section-y-padding">
+            <div class="frequent-inner container-xl">
+                <div class="section-heading">
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+                <main class="question-list">
+                    <div class="question">
+                        <img src="./assets/img/chevron-right.svg" width="6px" alt="">
+                        <span>What is Service Hub?</span>
+                    </div>
+                    <div class="question">
+                        <img src="./assets/img/chevron-right.svg" width="6px" alt="">
+                        <span>What is the difference between a free and a
+                            paid user?</span>
+                    </div>
+                    <div class="question">
+                        <img src="./assets/img/chevron-right.svg" width="6px" alt="">
+                        <span>How many users can I have with each Service Hub plan, and how much do additional users
+                            cost?</span>
+                    </div>
+                    <div class="question">
+                        <img src="./assets/img/chevron-right.svg" width="6px" alt="">
+                        <span>What's the difference between Sales and Service Hub?</span>
+                    </div>
+                    <div class="question">
+                        <img src="./assets/img/chevron-right.svg" width="6px" alt="">
+                        <span>What type of support does HubSpot offer?</span>
+                    </div>
+                </main>
+                <div class="frequent-bottom">
+                    <p>For more detailed information on product packaging and the limits that apply, please see our <a
+                            href=""> Product and Services Catalog</a> <img src="./assets/img/external_link.svg"
+                            class="ms-1" width="13px" alt=""> </p>
+                </div>
+            </div>
+
+
+        </section>
+
+        <footer class="footer-parent">
+            <div class="footer-inner container-xl">
+
+                <div class="footer-top">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="footer-top-heading">
+                                Popular Features
+                            </h6>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="footer-links">
+                                        <li><a>Free Meeting Scheduler App</a></li>
+                                        <li><a>Email Tracking Sofware</a></li>
+                                        <li><a>Ads Software</a></li>
+                                        <li><a>Lead Management Software</a></li>
+                                        <li><a>Sales Email Templates</a></li>
+                                        <li><a>Free Online Form Builder</a></li>
+                                        <li><a>Free Live Chat Software</a></li>
+                                        <li><a>Free Landing Page Builder</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="footer-links">
+                                        <li><a>Social Media Tools</a></li>
+                                        <li><a>Sales Email Automation</a></li>
+                                        <li><a>Email Marketing Software</a></li>
+                                        <li><a>Pipeline Management Tools</a></li>
+                                        <li><a>Help Desk Software</a></li>
+                                        <li><a>Free Chatbot Builder</a></li>
+                                        <li><a>Marketing Analytics</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <h6 class="footer-top-heading">
+                                Free tools
+                            </h6>
+                            <ul class="footer-links">
+                                <li><a>Website Grader</a></li>
+                                <li><a>Make My Persona</a></li>
+                                <li><a>Email Signature</a></li>
+                                <li><a>Blog Ideas</a></li>
+                                <li><a>Invoice Template</a></li>
+                                <li><a>Marketing Plan</a></li>
+                                <li><a>Free Business Template</a></li>
+                                <li><a>COVID-19 Benchmark Data</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <h6 class="footer-top-heading">
+                                Company
+                            </h6>
+                            <ul class="footer-links">
+                                <li><a>About Us</a></li>
+                                <li><a>Careers</a></li>
+                                <li><a>Board of Directors</a></li>
+                                <li><a>Management Team</a></li>
+                                <li><a>Investor Relations</a></li>
+                                <li><a>Blog</a></li>
+                                <li><a>Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <h6 class="footer-top-heading">
+                                Customers
+                            </h6>
+                            <ul class="footer-links">
+                                <li><a>Customer Support</a></li>
+                                <li><a>Join a Local User Group</a></li>
+                            </ul>
+
+                            <h6 class="footer-top-heading">
+                                Partners
+                            </h6>
+                            <ul class="footer-links">
+                                <li><a>All Partner Programs</a></li>
+                                <li><a>Solutions Partner Programn</a></li>
+                                <li><a>App Partner Program</a></li>
+                                <li><a>HubSpot for Startups</a></li>
+                                <li><a>Affiliate Program</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-mid py-5">
+                    <ul>
+                        <li><a href=""><img src="./assets/img/Marketing-Logos-Facebook-Light.svg" width="11px"
+                                    alt=""></a></li>
+                        <li><a href=""><img src="./assets/img/Marketing-Logos-Instagram-Light.svg" width="22px"
+                                    alt=""></a></li>
+                        <li><a href=""><img src="./assets/img/youtube.svg" width="31px" alt=""></a></li>
+                        <li><a href=""><img src="./assets/img/Marketing-Logos-Twitter-Light.svg" width="27px"
+                                    alt=""></a></li>
+                        <li><a href=""><img src="./assets/img/Marketing-Logos-LinkedIn-Light.svg" width="22px"
+                                    alt=""></a></li>
+                        <li><a href=""><img src="./assets/img/Marketing-Logos-Medium-Light.svg" width="22px" alt=""></a>
+                        </li>
+                    </ul>
+
+                    <div class="footer-app-xs d-flex d-sm-none justify-content-center gap-2 mt-5">
+                        <img src="./assets/img/google play high res.svg" width="140px" alt="">
+                        <img src="./assets/img/app store high res.svg" width="130px" alt="">
+                    </div>
+
+                </div>
+
+                <div class="footer-bottom">
+                    <img src="./assets/img/Marketing-Logos-HubSpot Secondary.svg" width="100px" alt="">
+                    <p>Copyright © 2021 HubSpot, Inc.</p>
+                    <a href="">Legal stuff</a>
+                    <a href="">Privacy policy</a>
+                </div>
+
+            </div>
+        </footer>
+
+
+
+    </div>
+
+
+
+
+    <!--BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--BOOTSTRAP-->
+</body>
+
+</html>

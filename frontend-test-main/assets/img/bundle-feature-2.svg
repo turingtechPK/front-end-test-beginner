@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13.813" height="13" viewBox="0 0 13.813 13">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="13.813" height="13" transform="translate(235 2262)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(-235 -2262)" clip-path="url(#clip-path)">
+    <g id="Page-1" transform="translate(235.464 2262)">
+      <g id="Product-Icons" transform="translate(-62.4 -134.16)">
+        <g id="Icons_SVG_Marketing" data-name="Icons/SVG/Marketing" transform="translate(62.4 134.16)">
+          <g id="Group-3">
+            <path id="Fill-1" d="M10.6,8.2a4.441,4.441,0,0,1-4.268,2.746A4.488,4.488,0,0,1,2.072,6.888,4.443,4.443,0,0,1,5.38,2.2a.458.458,0,0,0,.107-.042L7.535,1.032A.523.523,0,0,0,7.349.057,6.328,6.328,0,0,0,5.736.046,6.571,6.571,0,0,0,0,6.441a6.5,6.5,0,0,0,12.874,1.3A.522.522,0,0,0,12.1,7.2l-1.279.749A.516.516,0,0,0,10.6,8.2" fill="#33475b" fill-rule="evenodd"/>
+          </g>
+          <g id="Group-6" transform="translate(6.24)">
+            <path id="Fill-4" d="M6.221,4.831l-.885-.264L6.6.331a.251.251,0,0,0-.359-.3L.552,3.2A.259.259,0,0,0,.6,3.675l.885.265L.214,8.177a.251.251,0,0,0,.359.3L6.265,5.305a.259.259,0,0,0-.044-.474" fill="#ff7a59" fill-rule="evenodd"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
