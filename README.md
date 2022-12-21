@@ -1,11 +1,13 @@
 # Frontend Hiring Test - HTML,CSS,Framework (Beginner)
 
-This test is a part of our hiring process at TuringTech for the Frontend Engineer position. It should take you between 4 to 6 hours, depending on your experience, to implement the minimal version. You can do this test in plain HTML and CSS. This test is for students who're applying for internship or fresh graduates without prior web development experience.
+This test is a part of our hiring process at TuringTech for the Frontend Engineer position. It should take you between 4 to 6 hours, depending on your experience, to implement the minimal version. You can do this test in plain HTML and CSS, however it is highly recommend to use a frontend framework/library like React/Vue.
+
+This test is for students who're applying for internship or fresh graduates without prior web development experience.
 
 ## Performance Criteria
 
 - Matching of your task with the design.
-- Project structure and files.
+- Project and file structure.
 - Components/Elements created for different UI blocks (Header, Sidebar, etc)
 - Reusable components/elements created for similar UI blocks.
 - Time is taken to deliver the task.
@@ -33,7 +35,7 @@ The designs were created to the following widths:
 
 ## Bonus
 
-- Deploy your app on GitHub Pages and share URL
+- Deploy your app on GitHub Pages, Heroku and share it with us on your pull request.
 
 ## Code Submit
 Please organize, design, test and document your code as if it were going into production, create a loom video and send us a [pull request](https://opensource.com/article/19/7/create-pull-request-github). 
